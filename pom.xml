@@ -49,3 +49,9 @@
     </repository>
   </distributionManagement>	
 </project>
+<distributionManagement>
+   <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://ec2-34-214-242-151.us-west-2.compute.amazonaws.com:8081/nexus/content/repositories/jenkinsrelease</url>
+   </snapshotRepository>
+</distributionManagement>
